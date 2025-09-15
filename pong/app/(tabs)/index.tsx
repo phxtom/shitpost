@@ -1,5 +1,6 @@
 import React , { useEffect, useRef, useState } from 'react';
 import { View, Animations, Dimensions, StyleSheet, PanResponder } from 'react-native';
+import Animated from 'react-native-reanimated';
 
 {
   // gng ts pmo icl ^^
