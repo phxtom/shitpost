@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ScrollView, Pressable, Text, View, StyleSheet } from 'react-native'
 
 const [shrekCount, setShrekCount] = useState(0)
 
 function shrekclicker() {
   return (
-    <Pressable>
-
+    <Pressable
+    onPress={() => setShrekCount(shrekCount + 1)}>
+      <Text>{'🟢 Shrek' .repeat(shrekCount)}</Text>
     </Pressable>
   )
 }
@@ -21,4 +22,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'space-between',
+  }
+  
 })

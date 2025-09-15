@@ -1,12 +1,13 @@
 import React from 'react'
 import { ScrollView, Pressable, Text, View, StyleSheet } from 'react-native'
+import shrekclicker from '../../components/shrekclicker'
 
 function index() {
   return (
     <View style={styles.container}>
       <ScrollView>
         <View style={styles.shrekView}>
-
+          <shrekclicker />
         </View>
       </ScrollView>
       <View style={styles.resetView}>
