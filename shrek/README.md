@@ -1,3 +1,9 @@
+# Literally a random idea from ChatGPT
+
+Basically you just tap the screen and "🟢 Shrek" shows up. It's so stupid but I'm bored in study hall so what else do I do atp.
+
+Expo tuturial shit:
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
